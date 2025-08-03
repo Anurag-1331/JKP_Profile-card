@@ -1,0 +1,55 @@
+
+body{
+  padding: 10px;  
+  background-color: rgb(199, 63, 63);
+}
+
+.Parent {
+  border: 1px solid black;
+  width: 350px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+img{
+  height: 102px;
+  width: 83px;
+  object-fit:cover;
+  margin-right: 10px;
+}
+
+.right{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  /* font-size: 14px; */
+  flex-wrap: wrap;
+   gap: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(199, 63, 63);
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+  background-color: rgb(150, 30, 30);
+} 
