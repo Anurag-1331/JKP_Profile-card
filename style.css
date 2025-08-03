@@ -1,0 +1,62 @@
+body {
+  padding: 20px;
+  background-color: rgb(199, 63, 63);
+  font-family: Arial, sans-serif;
+}
+
+.Parent {
+  border: 1px solid black;
+  width: 360px;
+  border-radius: 10px;
+  padding: 12px;
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  height: 102px;
+  width: 83px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 1.4;
+  font-family: 'Times New Roman', Times, serif;
+  color: #333;
+}
+
+.links {
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(254, 252, 252);
+  background-color: rgb(199, 63, 63);
+  padding: 1.5px 3px;
+  border-radius: 5px;
+  font-size: 13px;
+  transition: background-color 0.3s ease;
+  /* display: flex; */
+  /* text-align: center; */
+  /* align-items: center; */
+}
+
+.links a:hover {
+  background-color: rgb(150, 30, 30);
+}
